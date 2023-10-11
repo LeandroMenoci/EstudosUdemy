@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CursoUdemy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecoes/Fila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecoes/Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecoes/Mapa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecoes/Pilha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecoes/Usuario.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Fila, Lista, Mapa, Pilha">
+      <change afterPath="$PROJECT_DIR$/src/POO/Anotacao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/CarroTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/CompraTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/CursoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Desafio/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Desafio/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Desafio/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Desafio/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Desafio/Sistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Composicao/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/CarroTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Civic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Direcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Heroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Monstro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,14 +58,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +75,34 @@
       <option name="presentableId" value="Default" />
       <updated>1696461629477</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fila, Lista, Mapa, Pilha">
+      <option name="closed" value="true" />
+      <created>1696465013673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696465013673</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fila, Lista, Mapa, Pilha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fila, Lista, Mapa, Pilha" />
   </component>
 </project>
