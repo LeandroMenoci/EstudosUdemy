@@ -1,4 +1,8 @@
-package POO.Heranca.Desafio;
+package POO.Heranca.Desafio.Teste;
+
+import POO.Heranca.Desafio.Carro;
+import POO.Heranca.Desafio.Civic;
+import POO.Heranca.Desafio.Ferrari;
 
 public class CarroTeste {
     public static void main(String[] args) {
@@ -12,9 +16,12 @@ public class CarroTeste {
         civic.acelerar();
         System.out.println(civic);
 
-        Carro ferrari = new Ferrari();
+        Ferrari ferrari = new Ferrari(400);
         ferrari.acelerar();
-        ferrari.frear();
+//        ferrari.ligarTurbo();
+//        ferrari.desligarAr();
+        ferrari.ligarAr();
+//        ferrari.frear();
         System.out.println(ferrari);
 
         ferrari.acelerar();
