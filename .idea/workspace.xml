@@ -4,35 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Herança">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Abstrato/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Abstrato/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Abstrato/Mamifero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Abstrato/TesteAbstrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Encapsulamento/CasaA/Ana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Encapsulamento/CasaA/Paulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Encapsulamento/CasaB/Julia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Encapsulamento/CasaB/Pedro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Encapsulamento/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Encapsulamento/PessoaTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Esportivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Luxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Polimorfismo/Arroz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Polimorfismo/Comida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Polimorfismo/Feijao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Polimorfismo/Jantar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Polimorfismo/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/Polimorfismo/Sorvete.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Interface">
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Calculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/CalculoTeste1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/CalculoTeste2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/CalculoTeste3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Foreach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Funcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Multiplicar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Predicado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Somar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Desafio/CarroTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Teste/CarroTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Civic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Civic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Ferrari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Heroi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Desafio/Teste/Jogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Heranca/Monstro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Heranca/Monstro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +35,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeandroMenoci&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="392b242c-da36-4f91-a3c6-4ea396f006a8" />
+        <option name="url" value="https://github.com/LeandroMenoci/EstudosUdemy.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -71,13 +70,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TesteAbstrato">
-    <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POO.Heranca.Desafio.Teste.CarroTeste" />
+  <component name="RunManager" selected="Application.Funcao">
+    <configuration name="CalculoTeste3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.CalculoTeste3" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="POO.Heranca.Desafio.Teste.*" />
+          <option name="PATTERN" value="Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jantar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POO.Polimorfismo.Jantar" />
+    <configuration name="Consumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Consumidor" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="POO.Polimorfismo.*" />
+          <option name="PATTERN" value="Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POO.Heranca.Desafio.Teste.Jogo" />
+    <configuration name="Foreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Foreach" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="POO.Heranca.Desafio.Teste.*" />
+          <option name="PATTERN" value="Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POO.Encapsulamento.PessoaTeste" />
+    <configuration name="Funcao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Funcao" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="POO.Encapsulamento.*" />
+          <option name="PATTERN" value="Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAbstrato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POO.Abstrato.TesteAbstrato" />
+    <configuration name="Predicado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Predicado" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="POO.Abstrato.*" />
+          <option name="PATTERN" value="Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteAbstrato" />
-        <item itemvalue="Application.CarroTeste" />
-        <item itemvalue="Application.Jantar" />
-        <item itemvalue="Application.PessoaTeste" />
-        <item itemvalue="Application.Jogo" />
+        <item itemvalue="Application.Funcao" />
+        <item itemvalue="Application.Consumidor" />
+        <item itemvalue="Application.Predicado" />
+        <item itemvalue="Application.Foreach" />
+        <item itemvalue="Application.CalculoTeste3" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697024225841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Interface">
+      <option name="closed" value="true" />
+      <created>1698321091670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698321091670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -193,7 +200,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fila, Lista, Mapa, Pilha" />
     <MESSAGE value="Herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="Herança" />
+    <MESSAGE value="Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
