@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Streams API e Map">
-      <change afterPath="$PROJECT_DIR$/src/Streams/DesafioMap.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Desafio Map">
+      <change afterPath="$PROJECT_DIR$/src/Streams/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DesafioMap">
+  <component name="RunManager" selected="Application.Filter">
     <configuration name="CriandoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Streams.CriandoStreams" />
       <module name="CursoUdemy" />
@@ -75,6 +76,19 @@
     </configuration>
     <configuration name="DesafioMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Streams.DesafioMap" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Filter" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -112,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambdas.Threads" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Filter" />
         <item itemvalue="Application.DesafioMap" />
         <item itemvalue="Application.Map" />
         <item itemvalue="Application.CriandoStreams" />
         <item itemvalue="Application.ImprimindoObjetos" />
-        <item itemvalue="Application.Threads" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698799987705</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Desafio Map">
+      <option name="closed" value="true" />
+      <created>1698800690778</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698800690778</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -261,7 +270,8 @@
     <MESSAGE value="BinaryOperator, BiFunction" />
     <MESSAGE value="Desafio Lambdas e Threads" />
     <MESSAGE value="Streams API e Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streams API e Map" />
+    <MESSAGE value="Desafio Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio Map" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
