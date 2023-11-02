@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Filter">
-      <change afterPath="$PROJECT_DIR$/src/Streams/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/DesafioFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/DesafioFilter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Produto.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Desafios Filter">
+      <change afterPath="$PROJECT_DIR$/src/Streams/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/MediaTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Reduce1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Reduce2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Reduce3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Streams/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Streams/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +56,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
-  <component name="RunManager" selected="Application.DesafioFilter2">
-    <configuration name="DesafioFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.DesafioFilter" />
+}]]></component>
+  <component name="RunManager" selected="Application.Match">
+    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Match" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesafioFilter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.DesafioFilter2" />
+    <configuration name="MediaTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.MediaTeste" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesafioMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.DesafioMap" />
+    <configuration name="Reduce1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Reduce1" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.Filter" />
+    <configuration name="Reduce2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Reduce2" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.Map" />
+    <configuration name="Reduce3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Reduce3" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesafioFilter2" />
-        <item itemvalue="Application.DesafioFilter" />
-        <item itemvalue="Application.Filter" />
-        <item itemvalue="Application.DesafioMap" />
-        <item itemvalue="Application.Map" />
+        <item itemvalue="Application.Match" />
+        <item itemvalue="Application.Reduce3" />
+        <item itemvalue="Application.MediaTeste" />
+        <item itemvalue="Application.Reduce2" />
+        <item itemvalue="Application.Reduce1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698803328431</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Desafios Filter">
+      <option name="closed" value="true" />
+      <created>1698892280814</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698892280814</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -282,7 +293,8 @@
     <MESSAGE value="Streams API e Map" />
     <MESSAGE value="Desafio Map" />
     <MESSAGE value="Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filter" />
+    <MESSAGE value="Desafios Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafios Filter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
