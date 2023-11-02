@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Comparator">
-      <change afterPath="$PROJECT_DIR$/src/Streams/Outros.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Distinct, Skip/Limit, takeWhile">
+      <change afterPath="$PROJECT_DIR$/src/Excecao/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/Basico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/ChecadaVsNaoChecada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Streams/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Streams/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +62,18 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Outros">
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.Match" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Excecao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChecadaVsNaoChecada">
+    <configuration name="Basico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excecao.Basico" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streams.*" />
+          <option name="PATTERN" value="Excecao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.MediaTeste" />
+    <configuration name="ChecadaVsNaoChecada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excecao.ChecadaVsNaoChecada" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Excecao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Match" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -113,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.Reduce3" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChecadaVsNaoChecada" />
+        <item itemvalue="Application.Basico" />
         <item itemvalue="Application.Outros" />
         <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.Match" />
-        <item itemvalue="Application.Reduce3" />
-        <item itemvalue="Application.MediaTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698956342157</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Distinct, Skip/Limit, takeWhile">
+      <option name="closed" value="true" />
+      <created>1698956960956</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698956960956</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -307,7 +322,8 @@
     <MESSAGE value="Desafios Filter" />
     <MESSAGE value="Reduce e Match" />
     <MESSAGE value="Comparator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparator" />
+    <MESSAGE value="Distinct, Skip/Limit, takeWhile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Distinct, Skip/Limit, takeWhile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
