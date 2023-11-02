@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Desafio Map">
-      <change afterPath="$PROJECT_DIR$/src/Streams/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Filter.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Filter">
+      <change afterPath="$PROJECT_DIR$/src/Streams/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/DesafioFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/DesafioFilter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +62,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Filter">
-    <configuration name="CriandoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.CriandoStreams" />
+  <component name="RunManager" selected="Application.DesafioFilter2">
+    <configuration name="DesafioFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.DesafioFilter" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesafioFilter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.DesafioFilter2" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -100,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImprimindoObjetos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.ImprimindoObjetos" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Streams.Map" />
       <module name="CursoUdemy" />
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesafioFilter2" />
+        <item itemvalue="Application.DesafioFilter" />
         <item itemvalue="Application.Filter" />
         <item itemvalue="Application.DesafioMap" />
         <item itemvalue="Application.Map" />
-        <item itemvalue="Application.CriandoStreams" />
-        <item itemvalue="Application.ImprimindoObjetos" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698800690778</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Filter">
+      <option name="closed" value="true" />
+      <created>1698803328431</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698803328431</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -271,7 +281,8 @@
     <MESSAGE value="Desafio Lambdas e Threads" />
     <MESSAGE value="Streams API e Map" />
     <MESSAGE value="Desafio Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio Map" />
+    <MESSAGE value="Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
