@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Distinct, Skip/Limit, takeWhile">
-      <change afterPath="$PROJECT_DIR$/src/Excecao/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Excecao/Basico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Excecao/ChecadaVsNaoChecada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Try/Catch">
+      <change afterPath="$PROJECT_DIR$/src/Excecao/Causa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/Finally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaA/NumeroForaIntervaloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaA/StringVaziaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaA/TesteValidacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaA/Validar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaB/personalizadaA/NumeroForaIntervaloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaB/personalizadaA/StringVaziaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaB/personalizadaA/TesteValidacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excecao/personalizadaB/personalizadaA/Validar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Excecao/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excecao/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +66,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "H:/Estudos/Java/CursoUdemy/src/Excecao/personalizadaB",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Estudos\Java\CursoUdemy\src\Excecao\personalizadaB" />
+      <recent name="H:\Estudos\Java\CursoUdemy\src\Excecao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Excecao.personalizadaA" />
       <recent name="Excecao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChecadaVsNaoChecada">
+  <component name="RunManager" selected="Application.Causa">
     <configuration name="Basico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Excecao.Basico" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Excecao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Causa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excecao.Causa" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.Match" />
+    <configuration name="Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excecao.Finally" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streams.*" />
+          <option name="PATTERN" value="Excecao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.MinMax" />
+    <configuration name="TesteValidacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excecao.personalizadaA.TesteValidacao" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Outros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.Outros" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Streams.*" />
+          <option name="PATTERN" value="Excecao.personalizadaA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Causa" />
+        <item itemvalue="Application.Finally" />
+        <item itemvalue="Application.TesteValidacao" />
         <item itemvalue="Application.ChecadaVsNaoChecada" />
         <item itemvalue="Application.Basico" />
-        <item itemvalue="Application.Outros" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.Match" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698956960956</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Try/Catch">
+      <option name="closed" value="true" />
+      <created>1698963252651</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698963252651</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -323,7 +344,8 @@
     <MESSAGE value="Reduce e Match" />
     <MESSAGE value="Comparator" />
     <MESSAGE value="Distinct, Skip/Limit, takeWhile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Distinct, Skip/Limit, takeWhile" />
+    <MESSAGE value="Try/Catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try/Catch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
