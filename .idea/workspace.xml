@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Tratamento de erro">
-      <change afterPath="$PROJECT_DIR$/src/Generics/Caixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaObjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaObjetoTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaTeste.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Iniciando Generics">
+      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaIntTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/CaixaNumeroTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ListaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ListaUtilTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Par.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Pares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ParesTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,20 @@
       <recent name="Excecao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CaixaTeste">
+  <component name="RunManager" selected="Application.ParesTeste">
+    <configuration name="CaixaIntTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.CaixaIntTeste" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CaixaObjetoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generics.CaixaObjetoTeste" />
       <module name="CursoUdemy" />
@@ -100,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Causa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excecao.Causa" />
+    <configuration name="ListaUtilTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.ListaUtilTeste" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Excecao.*" />
+          <option name="PATTERN" value="Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excecao.Finally" />
+    <configuration name="ParesTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.ParesTeste" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Excecao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteValidacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excecao.personalizadaA.TesteValidacao" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Excecao.personalizadaA.*" />
+          <option name="PATTERN" value="Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParesTeste" />
+        <item itemvalue="Application.ListaUtilTeste" />
+        <item itemvalue="Application.CaixaIntTeste" />
         <item itemvalue="Application.CaixaTeste" />
         <item itemvalue="Application.CaixaObjetoTeste" />
-        <item itemvalue="Application.Causa" />
-        <item itemvalue="Application.Finally" />
-        <item itemvalue="Application.TesteValidacao" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698980248509</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Iniciando Generics">
+      <option name="closed" value="true" />
+      <created>1699315017616</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1699315017616</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -347,7 +360,8 @@
     <MESSAGE value="Distinct, Skip/Limit, takeWhile" />
     <MESSAGE value="Try/Catch" />
     <MESSAGE value="Tratamento de erro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tratamento de erro" />
+    <MESSAGE value="Iniciando Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciando Generics" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
