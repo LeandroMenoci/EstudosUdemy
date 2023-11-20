@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Observer">
-      <change afterPath="$PROJECT_DIR$/libs/mysql-connector-j-8.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/CriarBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/CriarTabelaPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/FabricaConexao.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="JDBC, criando conexão e primeira tabela">
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CursoUdemy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CursoUdemy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/TesteConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/TesteConexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/NovaPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/NovaPessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +51,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/Estudos/Java/CursoUdemy/libs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "H:/Estudos/Java/CursoUdemy/libs",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Padroes.Observer" />
@@ -83,7 +79,7 @@
       <recent name="Excecao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CriarTabelaPessoas">
+  <component name="RunManager" selected="Application.NovaPessoa">
     <configuration name="CriarBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.CriarBanco" />
       <module name="CursoUdemy" />
@@ -110,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observador (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Swing.Observador" />
+    <configuration name="NovaPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.NovaPessoa" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Swing.*" />
+          <option name="PATTERN" value="JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NovaPessoa" />
         <item itemvalue="Application.CriarTabelaPessoas" />
         <item itemvalue="Application.CriarBanco" />
         <item itemvalue="Application.TesteConexao" />
         <item itemvalue="Application.Observador" />
-        <item itemvalue="Application.Observador (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700242765133</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="JDBC, criando conexão e primeira tabela">
+      <option name="closed" value="true" />
+      <created>1700481533265</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1700481533265</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -392,7 +396,8 @@
     <MESSAGE value="Iniciando Generics" />
     <MESSAGE value="Generics" />
     <MESSAGE value="Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer" />
+    <MESSAGE value="JDBC, criando conexão e primeira tabela" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC, criando conexão e primeira tabela" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
