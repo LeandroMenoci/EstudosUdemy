@@ -1,2 +1,4 @@
-package JDBC;public class NovaPessoa {
+package JDBC;
+
+public class NovaPessoa {
 }
