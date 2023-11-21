@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Consultando dados dentro de uma tabela">
-      <change afterPath="$PROJECT_DIR$/src/JDBC/AlterarNomePessoa.java" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Alterando dados dentro de uma tabela">
+      <change afterPath="$PROJECT_DIR$/src/JDBC/ExcluirPessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
       <recent name="Excecao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlterarNomePessoa">
+  <component name="RunManager" selected="Application.ExcluirPessoa">
     <configuration name="AlterarNomePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.AlterarNomePessoa" />
       <module name="CursoUdemy" />
@@ -118,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CriarTabelaPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.CriarTabelaPessoas" />
+    <configuration name="ExcluirPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.ExcluirPessoa" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcluirPessoa" />
         <item itemvalue="Application.AlterarNomePessoa" />
         <item itemvalue="Application.ConsultarPessoas2" />
         <item itemvalue="Application.ConsultarPessoas1" />
         <item itemvalue="Application.NovaPessoa" />
-        <item itemvalue="Application.CriarTabelaPessoas" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700505786813</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Alterando dados dentro de uma tabela">
+      <option name="closed" value="true" />
+      <created>1700567589371</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1700567589371</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -422,7 +430,8 @@
     <MESSAGE value="JDBC, criando conexão e primeira tabela" />
     <MESSAGE value="criando dados dentro da tabela pessoas" />
     <MESSAGE value="Consultando dados dentro de uma tabela" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consultando dados dentro de uma tabela" />
+    <MESSAGE value="Alterando dados dentro de uma tabela" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterando dados dentro de uma tabela" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
