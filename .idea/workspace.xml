@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Consultando dados dentro de uma tabela">
-      <change afterPath="$PROJECT_DIR$/src/JDBC/ConsultarPessoas2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/AlterarNomePessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,20 @@
       <recent name="Excecao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsultarPessoas2">
+  <component name="RunManager" selected="Application.AlterarNomePessoa">
+    <configuration name="AlterarNomePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.AlterarNomePessoa" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsultarPessoas1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.ConsultarPessoas1" />
       <module name="CursoUdemy" />
@@ -94,19 +107,6 @@
     </configuration>
     <configuration name="ConsultarPessoas2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.ConsultarPessoas2" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CriarBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.CriarBanco" />
       <module name="CursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlterarNomePessoa" />
         <item itemvalue="Application.ConsultarPessoas2" />
         <item itemvalue="Application.ConsultarPessoas1" />
         <item itemvalue="Application.NovaPessoa" />
         <item itemvalue="Application.CriarTabelaPessoas" />
-        <item itemvalue="Application.CriarBanco" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700505115143</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Consultando dados dentro de uma tabela">
+      <option name="closed" value="true" />
+      <created>1700505786813</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1700505786813</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
