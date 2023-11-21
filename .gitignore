@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .idea
+.conexao.properties
 
 ### Eclipse ###
 .apt_generated
