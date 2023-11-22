@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Excluindo dados dentro de uma tabela">
-      <change afterPath="$PROJECT_DIR$/src/conexao.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ead69cbf-fa77-40c6-96f2-3253b4536123" name="Changes" comment="Utilizando conexao.properties">
+      <change afterPath="$PROJECT_DIR$/src/JDBC/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/DAOTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/AlterarNomePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/AlterarNomePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/ConsultarPessoas1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/ConsultarPessoas1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/ConsultarPessoas2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/ConsultarPessoas2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/CriarTabelaPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/CriarTabelaPessoas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/ExcluirPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/ExcluirPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/FabricaConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/FabricaConexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/NovaPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/NovaPessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,20 +79,7 @@
       <recent name="Excecao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsultarPessoas1">
-    <configuration name="AlterarNomePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.AlterarNomePessoa" />
-      <module name="CursoUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DAOTeste">
     <configuration name="ConsultarPessoas1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.ConsultarPessoas1" />
       <module name="CursoUdemy" />
@@ -139,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DAOTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.DAOTeste" />
+      <module name="CursoUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NovaPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.NovaPessoa" />
       <module name="CursoUdemy" />
@@ -154,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DAOTeste" />
         <item itemvalue="Application.ConsultarPessoas1" />
         <item itemvalue="Application.ConsultarPessoas2" />
         <item itemvalue="Application.NovaPessoa" />
         <item itemvalue="Application.CriarTabelaPessoas" />
-        <item itemvalue="Application.AlterarNomePessoa" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700569774761</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Utilizando conexao.properties">
+      <option name="closed" value="true" />
+      <created>1700570733910</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1700570733910</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -422,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Herança" />
     <MESSAGE value="Interface" />
     <MESSAGE value="Iniciando Lambdas" />
     <MESSAGE value="Predicado" />
@@ -447,7 +447,8 @@
     <MESSAGE value="Consultando dados dentro de uma tabela" />
     <MESSAGE value="Alterando dados dentro de uma tabela" />
     <MESSAGE value="Excluindo dados dentro de uma tabela" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excluindo dados dentro de uma tabela" />
+    <MESSAGE value="Utilizando conexao.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilizando conexao.properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
